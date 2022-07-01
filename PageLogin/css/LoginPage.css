@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+				margin: 0;
+				padding: 0;
+				border-style: border-box;
+				color: white;
+}
+
+body {
+				background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.95)), url(../img/Background.jpg);
+				background-size: cover;
+				background-position: center center;
+				background-position-y: 0px;
+				background-repeat: no-repeat;
+				width: 100vw;
+				height: 100vh;
+				font-family: Lato;
+}
+
+a {
+				text-decoration: none;
+}
+
+/*Logo-Netflix*/
+
+.img-logo img{
+				width: 185px;
+				margin-top: 15px;
+				margin-left: 30px;
+}
+
+/*Login-Box*/
+
+.login {
+				display: flex;
+				align-itens: center;
+				justify-content: center;
+}
+
+.login-content {
+				background-color: rgba(17, 17, 17, 0.9);
+				display: flex;
+				align-itens: center;
+				justify-content: center;
+				flex-direction: column;
+				width: 355px;
+				padding: 75px;
+				gap: 30px;
+				border-radius: 4px;
+}
+
+.login-content h1{
+				font-size: 35px;
+				font-weight: 900;
+				margin-bottom: 10px;
+}
+
+/*Inputs*/
+
+.inputs {
+				displey: flex;
+				width: 100%;
+				flex-direction: column;
+				align-itens: center;
+				justify-content: center;
+				margin-bottom: 15px;
+}
+
+.inputs label {
+				position: relative;
+				width: 100%;
+}
+
+.span {
+				position: absolute;
+				top: 50%;
+				left: 20px;
+				font-size: 17px;
+				font-weight: 900;
+				transform: translate(0%, -50%);
+				color: #888888;
+				transition: font-size 100ms;
+}
+
+.label-input {
+				position: absolute;
+				margin-top: 6px;
+				left: 20px;
+				font-size: 12px;
+				color: #888888;
+				font-weight: 900;
+				transition: font-size 200ms;
+}
+
+.inputs label input {
+				border: none;
+				background: #333333;
+				margin-bottom: 17px;			
+				outline: none;
+				padding: 22px 0px 22px 20px;
+				font-size: 17px;
+				border-radius: 5px;
+				width: 100%;
+}
+
+.inputs label input:focus {
+				background: #454545;
+				color: #fff;
+}
+
+
+/*Submit-Button*/
+
+.input-submit {
+				width: 105.5%;
+				padding: 22px;
+				background-color: red;
+				border: none;
+				border-radius: 5px;
+				font-size: 20px;
+				font-weight: 900;				
+}
+
+/*Assisten-Bar*/
+
+.login-suport {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				font-size: 13.5px;				
+				width: 105.5%;
+				margin-bottom: 75px;
+}
+
+.login-suport label {
+				display: flex;
+				align-itens: center;
+				justify-content: center;
+				gap: 5px;
+}
+
+.login-suport label span, .login-suport a {
+				color: rgba(122, 122, 122, 1);
+}
+
+.login-suport a:hover {
+				text-decoration: underline;
+}
+
+
+/*Bottom-Bar*/
+
+.bottom {
+				display: flex;
+				flex-direction: column;
+				gap: 17px;
+				width: 105.5%;
+				margin-bottom: 90px;
+}
+
+.bottom a:hover {
+				text-decoration: underline;
+}
+
+.bottom span {
+				color: #888888;
+}
+
+.assinar a {
+				font-weight: 700;
+}
+
+.captcha {
+				font-size: 14px;
+}
+
+.captcha a {
+				color: #2b58ff;
+}
