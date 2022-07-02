@@ -157,6 +157,7 @@ a {
 				gap: 17px;
 				width: 105.5%;
 				margin-bottom: 90px;
+				font-size: 17px;
 }
 
 .bottom a:hover {
@@ -177,4 +178,10 @@ a {
 
 .captcha a {
 				color: #2b58ff;
+}
+
+/*Responsividade*/
+
+@media(){
+				
 }
