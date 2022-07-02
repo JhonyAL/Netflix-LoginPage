@@ -16,3 +16,13 @@ const handleFocus = ({ target }) => {
 
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
+
+
+//Mostrar Senha
+
+var reveledPassword = document.getElementById('reveled');
+var password = document.getElementById('password');
+
+if(password.value === '') {
+				
+}

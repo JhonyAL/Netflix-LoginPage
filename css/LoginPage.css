@@ -82,6 +82,15 @@ a {
 				transition: font-size 100ms;
 }
 
+.reveled-password {
+				position: absolute;
+				right: 10px;
+				color: #888888;
+				top: 50%;
+				transform: translateY(-50%);
+				display: none;
+}
+
 .label-input {
 				position: absolute;
 				margin-top: 6px;
