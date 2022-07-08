@@ -69,7 +69,7 @@ a {
 
 .inputs label {
 				position: relative;
-				width: 100%;
+				max-width: 100%;
 }
 
 .span {
@@ -108,7 +108,7 @@ a {
 				padding: 22px 0px 22px 20px;
 				font-size: 17px;
 				border-radius: 2px;
-				width: 100%;
+				width: 335px;
 }
 
 .inputs label input:focus {
@@ -120,7 +120,7 @@ a {
 /*Submit-Button*/
 
 .input-submit {
-				width: 105.5%;
+				width: 100%;
 				padding: 22px;
 				background-color: red;
 				border: none;
@@ -136,7 +136,7 @@ a {
 				flex-direction: row;
 				justify-content: space-between;
 				font-size: 13.5px;				
-				width: 105.5%;
+				width: 100%;
 				margin-bottom: 75px;
 }
 
@@ -162,7 +162,7 @@ a {
 				display: flex;
 				flex-direction: column;
 				gap: 17px;
-				width: 105.5%;
+				width: 100%;
 				margin-bottom: 90px;
 				font-size: 17px;
 }
